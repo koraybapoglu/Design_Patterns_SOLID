@@ -41,7 +41,7 @@ namespace Solid_Open_Closed_Principle
 			}
 		}
 	}
-	public class _Halkbank
+	public class _Halkbank:IBanka
 	{
 		public string HesapNo { get; set; }
 		public void ParaGonder(int tutar)
@@ -64,7 +64,7 @@ namespace Solid_Open_Closed_Principle
 			}
 		}
 	}
-	class AhmetBank
+	class AhmetBank:IBanka
 	{
 		public string HesapNo { get; set; }
 		public void ParaGonder(int tutar)
