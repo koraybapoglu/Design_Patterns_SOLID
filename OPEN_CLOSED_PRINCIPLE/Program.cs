@@ -16,6 +16,8 @@ namespace Solid_Open_Closed_Principle
 			//halkbank.GonderılecekHesapNo("TR230583215132");
 			//halkbank.Gonder(3500);
 			#endregion
+
+
 			#region DOĞRU KULLANIM
 			ParaGonderıcı paraGonderıcı = new ParaGonderıcı();
 			paraGonderıcı.ParaGonder(new _Garanti(), 1500, "TR004200200550776");
